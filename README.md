@@ -1,6 +1,14 @@
 # ArmA Scripts
 These are a number of useful scripts for mission designers. They provide everything from a realtime map (for example, from a UAV) to automatic support vehicle waypoints and logic. All scripts have been designed to be used with the new ArmA 3 function framework, giving you a number of advantages including anti-hack protection.
 
+# Usage
+Using these scripts is really, really easy. Simply copy the contents of the *description.ext* file into your mission's *description.ext* file (if you have one) and copy the *functions* folder into your mission folder. Save your mission in the editor, and you should be able to start using the functions right away.
+
+You can find your mission folder in *%MyDocuments%\ArmA 3\missions*.
+
+# Contributing
+If you've got something you'd like to contribute, please go ahead and open a pull request/issue and I'll get right on it.
+
 # Functions
 ## Map
 ### Sierra_fnc_PositionMarkers
