@@ -8,7 +8,7 @@
  * @website https://sierrasoftworks.com
  * @licence MIT Licence
  *
- * @params [vehicles, home_position, invincible]
+ * @params [vehicles, home_position]
  * @param vehicles The vehicles providing the support for the player
  * @param home_position The position that the vehicle should return to (default: getPosATL (_vehicles select 0))
  * @usage _ = [support_ammo, getMarkerPos "depot"] call Sierra_fnc_SupportVehicleInit;
@@ -17,7 +17,7 @@
 
 if(!isServer) exitWith {};
 
-private ["_vehicle", "_home", "_invincible"];
+private ["_vehicles", "_home"];
 
 _vehicles = [_this, 0] call BIS_fnc_param;
 
