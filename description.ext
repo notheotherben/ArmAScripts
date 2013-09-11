@@ -1,0 +1,20 @@
+/**
+ * Add this to your mission's description.ext to gain access to the functions provided
+ * through ArmA 3's Function framework.
+ * This allows you to call them using call/spawn Sierra_fnc_* instead of having to remember
+ * file names and paths, as well as automatically using compileFinal and some other optimaizations.
+ */
+
+class CfgFunctions
+{
+	class Sierra {
+		class Map {
+			class PositionMarkers {};
+		};
+		class Supports {
+			class SupportVehicleInit {};
+			class SupportVehicleRequest {};
+			class SupportVehicleMigrate {};
+		};
+	};
+};
